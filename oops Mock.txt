@@ -1,0 +1,71 @@
+class Animal{
+void eat(){
+System.out.println("eating");
+}
+}
+
+class Dog extends Animal{
+void bark(){
+System.out.println("barking");
+}
+
+class Cat extends Dog{
+void sleep(){
+System.out.println("sleeping");
+
+void play(){
+System.out.println("playing"):
+}
+}
+}
+class Sheep{
+void chewing(){
+System.out.println("chewing");
+}
+}
+
+}
+class Single{
+public static void main(String[] args){
+Dog d=new Dog();
+Cat c=new Cat();
+c.sleep();
+c.play();
+c.eat();
+c.bark();
+d.eat();
+d.bark();
+}
+
+
+}
+
+
+
+
+
+
+
+class Test{
+int a=5;
+int b=5;
+int c=6;
+void add(int a, int b){
+System.out.println(a+b);
+}
+ void add(int a, int b, int c){
+System.out.println(a+b-c);
+
+}
+public static void main(String[] args){
+
+Test a=new Test();
+a.add(5,5)
+a.add(5,5,6)
+
+}
+
+
+
+
+}
